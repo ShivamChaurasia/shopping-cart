@@ -42,7 +42,7 @@ class Cart extends React.Component {
       dataIndex: 'id',
       render: (id) => (
         <span onClick={()=>this.props.removeFromCart(id)}>
-          <a>Delete</a>
+          Delete
         </span>
       ),
     }];

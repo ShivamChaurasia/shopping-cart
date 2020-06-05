@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.9.2",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
@@ -13,16 +13,16 @@
     "react-notify-toast": "^0.5.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
+    "react-scripts": "^3.4.1",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^6.6.0",
     "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react": "^7.20.0",
     "gh-pages": "^2.0.0",
     "redux-devtools-extension": "^2.13.5",
     "redux-logger": "^3.0.6"
@@ -37,5 +37,17 @@
     "elint": "eslint . — ext .js — ext .jsx — cache",
     "elint:table": "eslint . — ext .js — ext .jsx — cache — format table",
     "elint:summary": "eslint . — ext .js — ext .jsx — cache — format ‘node_modules/eslint-friendly-formatter’"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
